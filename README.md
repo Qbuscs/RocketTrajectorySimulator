@@ -14,7 +14,8 @@ A rocket is defined by following parameters:
 
 All starting parameters are in a main.py file, so you can change them to your liking there, as I can't be bothered to make a functional interface or args reading from command line.
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+The fuel consumption in kg/s is calculated using the formula <img src="https://render.githubusercontent.com/render/math?math=\frac{F}{I_sp * 9.81}">, where F is the engine force, Isp is engine's Isp and 9.81 is earth's gravity.
+
 
 # Things to improve
 * Currently the simulation step is set to 1 minute. Higher steps are unstable when the rocket is closly orbiting a celestial body. However on interplanetary trajectory, this could be dynamically increased to probably over 1 hour, as the change in forces affecting the rocket is not that big.
