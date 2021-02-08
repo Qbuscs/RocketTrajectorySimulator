@@ -14,6 +14,8 @@ A rocket is defined by following parameters:
 
 All starting parameters are in a main.py file, so you can change them to your liking there, as I can't be bothered to make a functional interface or args reading from command line.
 
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 # Things to improve
 * Currently the simulation step is set to 1 minute. Higher steps are unstable when the rocket is closly orbiting a celestial body. However on interplanetary trajectory, this could be dynamically increased to probably over 1 hour, as the change in forces affecting the rocket is not that big.
 * When you run this simulation, look at the results, and want to add a burn maneuver at some point, you shouldn't have to rerun the simulation up to this point. This is, however, excactly what happens, so possible fix is to remember the trajectory up to added engine burn moment
