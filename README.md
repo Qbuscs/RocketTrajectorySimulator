@@ -1,6 +1,6 @@
 # Getting started
 This is a simple script for simulating a rocket's trajectory in a solar system. The position of planets
-is calculated based on input date, and get from [solarsystem](https://github.com/IoannisNasios/solarsystem) library. Once ran, the planet data is saved to planets.picle, as it is not affected by anything during the simulation, and there is no need to recalculate it every time there is a change to other starting parameters. If you want to change the takeoff date however, you need to delete this file manually so that movement of celestial bodies can be calculated anew.
+is calculated based on input date, and gotten from [solarsystem](https://github.com/IoannisNasios/solarsystem) library. Once ran, the planet data is saved to planets.picle, as it is not affected by anything during the simulation, and there is no need to recalculate it every time there is a change to other starting parameters. If you want to change the takeoff date however, you need to delete this file manually so that movement of celestial bodies can be calculated anew.
 
 This is simillar to N-body problem, with a distinction that rocket is not massive enough to influence planets' course, so that kind of interaction is ignored. Moreover, we can controll the movement of a space ship with an engine burn manouvers, which will change its velocity in a given direction at a cost of burning fuel and thus reducing its mass.
 
